@@ -4,6 +4,8 @@ import multer from 'multer';
 
 const cloudinary = cld.v2
 
+console.log("config: " + process.env.CLOUDINARY_SECRET);
+
 cloudinary.config({
   cloud_name: "neowise-store",
   api_key: "543286641464229",

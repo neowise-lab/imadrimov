@@ -1,5 +1,7 @@
-import { Pool } from 'pg'
+import pg from 'pg'
 import Project from './project.model.js'
+
+const { Pool } = pg
 
 const pool = new Pool({
   user: process.env.PGUSER,
