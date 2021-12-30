@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "imadrimov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.4"
+  }
+}
